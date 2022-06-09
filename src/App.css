@@ -1,38 +1,170 @@
-.App {
-  text-align: center;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.headnav img{
+  padding-top: 8px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.relief img{
+  padding-top: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dropdown{
+  width: auto;
+  display: inline-block;
+  padding-left: 0px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.font-images{
+  width: auto;
+  display: inline-block;
+  padding-right: 32px;
+}
+
+.site-footer{
+  background-color: #34495e;
+  position: relative;
+}
+
+
+.marqeehead{
+  height: 45px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+marquee a {
+  text-decoration: none;
+}
+marquee a:hover{
+  text-decoration: underline;
+}
+.screen-link{
+  text-decoration: none;
+}
+
+.paytm-message{
+  font-size: 15px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.helpline{
+  padding-right: 17px;
+}
+.screen{
+  color: black;
+  padding-right: 17px;
+}
+.font-images{
+  width: auto;
+  display: inline-block;
+  padding-right: 32px;
+}
+.img-one{
+  display: inline; 
+  cursor: pointer;
+  height: 19px;
+  margin: 2px;
+}
+.img-two{
+  display: inline;
+   cursor: pointer;
+  height: 23px;
+  margin: 2px;
+}
+.img-three{
+  display: inline;
+   cursor: pointer;
+  height: 27px;
+  margin: 2px;
+}
+.panchayat{
+  font-size: 27px;
+  padding-left: 10px;
+}
+.fund{
+  margin-top: 1px;
+  margin-bottom: 19px;
+}
+.panchayat-link{
+  color:black;
+  text-decoration: none;
+}
+.panchayat-link:hover{
+  color: black;
+  text-decoration: underline;
+}
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu {
+  position:relative;
+}
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top:-6px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+  text-decoration: underline;
+  transform: rotate(-90deg);
+} 
+
+.dropdown{
+  padding: 0px;
+}
+
+.nav-item{
+  padding: 15px 20px;
+}
+.nav-item:hover{
+  background-color: #257398;
+  cursor: pointer;
+}
+
+.navbar{
+  background-color: #039be6;
+}
+
+.nav-link{
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.footer-one{
+  height: 89px;
+  background-color: #34495e;
+}
+
+.footer-two{
+  height: 75px;
+  background-color: #2d3e50;
+}
+
+.footer-headings{
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 5px !important;
+  padding-bottom: 5px !important;
+}
+#footer-sub-headings{
+  color: #ccc;
+  list-style-type: none;
+  text-decoration: none;
+}
+#footer-sub-headings a{
+  color: #ccc;
+  list-style-type: none;
+  text-decoration: none;
+}
+#footer-sub-headings a:hover{
+  cursor: pointer;
+  color: white;
 }
