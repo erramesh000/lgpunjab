@@ -151,13 +151,14 @@ marquee a:hover{
   color: white;
   font-weight: 600;
   font-size: 17px;
-  margin-bottom: 5px !important;
-  padding-bottom: 5px !important;
+  margin-left: 31px !important;
 }
 #footer-sub-headings{
   color: #ccc;
   list-style-type: none;
   text-decoration: none;
+  margin-top: 5px !important;
+  padding-bottom: 5px !important;
 }
 #footer-sub-headings a{
   color: #ccc;
@@ -167,4 +168,43 @@ marquee a:hover{
 #footer-sub-headings a:hover{
   cursor: pointer;
   color: white;
+}
+.footer-one{
+  padding: 48px;
+}
+#digital-india{
+  width: 100%;
+  margin-bottom: 48px;
+  word-wrap: break-word;
+  text-align: left;
+}
+#digital-india img{
+  width: 300px;
+  height: 114px;
+}
+#visitors{
+  width: 100%;
+  margin-bottom: 48px;
+  word-wrap: break-word;
+}
+#visitors h4{
+  font-weight: 600;
+  font-size: 17px;
+  color: white;
+}
+#copyright{
+  color: #ccc;
+}
+.pull-left{
+  padding-top: 30px;
+  margin-bottom: 0px;
+  float: left !important;
+}
+.pull-right{
+  float: right !important;
+  padding-top: 30px;
+  margin-bottom: 0px;
+}
+#random-one p{
+  margin: 0 0 20px;
 }
