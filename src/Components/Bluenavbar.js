@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {NavLink} from "react-router-dom";
 export default function Bluenavbar() {
   return (
     <>
@@ -10,80 +10,80 @@ export default function Bluenavbar() {
         <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
+              <NavLink to="/" class="nav-link" >Home</NavLink>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> About City </a>
+              <NavLink to="/two" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> About City </NavLink>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Introduction</a>
+                <li class="dropdown-submenu">< NavLink class="dropdown-item dropdown-toggle"  >Introduction</ NavLink>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Introduction</a></li>
-                    <li><a class="dropdown-item" href="#">City Maps</a></li>
-                    <li><a class="dropdown-item" href="#">Public Utility Services</a></li>
-                    <li><a class="dropdown-item" href="#">About Us</a></li>
+                    <li>< NavLink class="dropdown-item"  >Introduction</ NavLink></li>
+                    <li>< NavLink class="dropdown-item"  >City Maps</ NavLink></li>
+                    <li>< NavLink class="dropdown-item"  >Public Utility Services</ NavLink></li>
+                    <li>< NavLink class="dropdown-item"  >About Us</ NavLink></li>
                   </ul>
                 </li>
-                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Tourism</a>
+                <li class="dropdown-submenu">< NavLink class="dropdown-item dropdown-toggle"  >Tourism</ NavLink>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Tourist Locations</a></li>
+                    <li>< NavLink class="dropdown-item"  >Tourist Locations</ NavLink></li>
                   </ul>
                 </li>
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Information</a>
+              < NavLink class="nav-link dropdown-toggle"   id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Information</ NavLink>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Key Documents</a>
+                <li class="dropdown-submenu">< NavLink class="dropdown-item dropdown-toggle"  >Key Documents</ NavLink>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Government Resolution</a></li>
-                    <li><a class="dropdown-item" href="#">Citizen Charter</a></li>
-                    <li><a class="dropdown-item" href="#">Notifications/Circulars</a></li>
-                    <li><a class="dropdown-item" href="#">Forms</a></li>
-                    <li><a class="dropdown-item" href="#">Tenders</a></li>
+                    <li>< NavLink class="dropdown-item"  >Government Resolution</ NavLink></li>
+                    <li>< NavLink class="dropdown-item"  >Citizen Charter</ NavLink></li>
+                    <li>< NavLink class="dropdown-item"  >Notifications/Circulars</ NavLink></li>
+                    <li>< NavLink class="dropdown-item"  >Forms</ NavLink></li>
+                    <li>< NavLink class="dropdown-item"  >Tenders</ NavLink></li>
                   </ul>
                 </li>
-                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Acts</a>
+                <li class="dropdown-submenu">< NavLink class="dropdown-item dropdown-toggle"  >Acts</ NavLink>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">RTI</a></li>
+                    <li>< NavLink class="dropdown-item"  >RTI</ NavLink></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="#">Help Documents</a></li>
-                <li><a class="dropdown-item" href="#">Departments</a></li>
+                <li>< NavLink class="dropdown-item"  >Help Documents</ NavLink></li>
+                <li>< NavLink class="dropdown-item"  >Departments</ NavLink></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Online Services</a>
+              < NavLink class="nav-link dropdown-toggle"   id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Online Services</ NavLink>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Online Payments</a>
+                <li class="dropdown-submenu">< NavLink class="dropdown-item dropdown-toggle"  >Online Payments</ NavLink>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Water Charges</a></li>
-                    <li><a class="dropdown-item" href="#">Sewer Charges</a></li>
-                    <li><a class="dropdown-item" href="#">Water Estimation Fee</a></li>
-                    <li><a class="dropdown-item" href="#">Sewer Estimation Fee</a></li>
+                    <li>< NavLink class="dropdown-item"  >Water Charges</ NavLink></li>
+                    <li>< NavLink class="dropdown-item"  >Sewer Charges</ NavLink></li>
+                    <li>< NavLink class="dropdown-item"  >Water Estimation Fee</ NavLink></li>
+                    <li>< NavLink class="dropdown-item"  >Sewer Estimation Fee</ NavLink></li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="#">mSeva – Property Tax, Trade License, Complaints and more</a></li>
-                <li><a class="dropdown-item" href="#">Apply New Connection</a></li>
-                <li><a class="dropdown-item" href="#">How To Apply New Connection</a></li>
+                <li>< NavLink class="dropdown-item"  >mSeva – Property Tax, Trade License, Complaints and more</ NavLink></li>
+                <li>< NavLink class="dropdown-item"  >Apply New Connection</ NavLink></li>
+                <li>< NavLink class="dropdown-item"  >How To Apply New Connection</ NavLink></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News & Events</a>
+              < NavLink class="nav-link dropdown-toggle"   id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News & Events</ NavLink>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">News</a></li>
-                <li><a class="dropdown-item" href="#">Events</a></li>
+                <li>< NavLink class="dropdown-item"  >News</ NavLink></li>
+                <li>< NavLink class="dropdown-item"  >Events</ NavLink></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
+              < NavLink class="nav-link"  >Gallery</ NavLink>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Others</a>
+              < NavLink class="nav-link dropdown-toggle"   id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Others</ NavLink>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Recruitment</a></li>
-                <li><a class="dropdown-item" href="#">FAQ</a></li>
-                <li><a class="dropdown-item" href="#">User Feedback</a></li>
-                <li><a class="dropdown-item" href="#">Tender Listing</a></li>
+                <li>< NavLink class="dropdown-item"  >Recruitment</ NavLink></li>
+                <li>< NavLink class="dropdown-item"  >FAQ</ NavLink></li>
+                <li>< NavLink class="dropdown-item"  >User Feedback</ NavLink></li>
+                <li>< NavLink class="dropdown-item"  >Tender Listing</ NavLink></li>
               </ul>
             </li>
           </ul>
